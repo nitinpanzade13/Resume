@@ -1,10 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Resume</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>My Resume</h1>
-    <p><a href="Resume.pdf" target="_blank">Click here to view my resume</a></p>
+<body class="bg-gray-100 text-gray-800 font-sans leading-relaxed">
+  <div class="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-10">
+    <h1 class="text-3xl font-bold text-center text-blue-600 mb-4">Nitin Balwant Panzade</h1>
+    <p class="text-center text-gray-600 mb-6">Software Developer | AI Enthusiast | Fast Learner</p>
+
+    <!-- Contact Info -->
+    <div class="text-center mb-6">
+      <p>Email: nitin@example.com | Phone: +91-1234567890</p>
+      <p>Location: Pune, Maharashtra | GitHub: github.com/yourusername</p>
+    </div>
+
+    <!-- Education -->
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold text-blue-500 border-b pb-1 mb-2">Education</h2>
+      <p><strong>Vishwakarma Institute of Information Technology</strong> – B.Tech in IT (2021–2025)</p>
+      <p>CGPA: 8.7</p>
+    </section>
+
+    <!-- Skills -->
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold text-blue-500 border-b pb-1 mb-2">Skills</h2>
+      <ul class="list-disc pl-5">
+        <li>Python, JavaScript, Java, MySQL</li>
+        <li>React, Node.js, Tailwind CSS</li>
+        <li>Machine Learning, NLP, Resume Parsing</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold text-blue-500 border-b pb-1 mb-2">Projects</h2>
+      <div class="mb-4">
+        <h3 class="font-semibold">AI Interview Assistant</h3>
+        <p>Built a Streamlit app that generates dynamic questions based on parsed resume skills and evaluates answers using NLP.</p>
+      </div>
+      <div class="mb-4">
+        <h3 class="font-semibold">AgriRent Platform</h3>
+        <p>A web app to rent agricultural equipment with a dual-side interface for renters and sellers.</p>
+      </div>
+    </section>
+
+    <!-- Experience (Optional) -->
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold text-blue-500 border-b pb-1 mb-2">Experience</h2>
+      <p><strong>Intern - AI Research</strong> at XYZ AI Labs (June 2024 – Aug 2024)</p>
+      <p>Worked on text classification and keyword extraction projects using NLTK and Scikit-learn.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-500 mt-10">
+      &copy; 2025 Nitin Panzade. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
